@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Waldemar Schynol Industrieservice</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="bootstrap.css" />
+        <!-- <link type="text/css" rel="stylesheet" href="styles.css"> -->
+        <script type="text/javascript" src=""></script>
+    </head>
+    <body>
+        <header id="header">
+            <hgroup>
+                <h1>Waldemar Schynol Industrieservice</h1>
+                <h2>Mehr als "Heavy Metal"</h2>
+            </hgroup>
+            <nav id="navi">
+                <ul>
+                    <li><a href="#">Startseite</a></li>
+                    <li id="leistungen"><a href="#">Leistungen</a>
+                        <ul class="submenu">
+                            <li><a href="#">Schweißtechnik</a></li>
+                            <li><a href="#">Montage & Demontage</a></li>
+                            <li><a href="#">Instandsetzung</a></li>
+                            <li><a href="#">Reparatur & Wartung</a></li>
+                        </ul>
+                    </li>
+                    <li id="service"><a href="#">Service</a>
+                        <ul class="submenu">
+                            <li><a href="#">Maschinenpark</a></li>
+                        </ul>
+                    </li>
+                    <li id="referenz"><a href="#">Referenzen</a>
+                        <ul class="submenu">
+                            <li><a href="#">Kunden</a></li>
+                        </ul>
+                    </li>
+                    <li id="qualitaet"><a href="#">Qualität</a>
+                        <ul class="submenu">
+                            <li><a href="#">Zertifikate</a></li>
+                        </ul>
+                    </li>
+                    <li id="wir"><a href="#">Wir über uns</a>
+                    <ul class="submenu">
+                        <li><a href="#">Historie</a></li>
+                        <li><a href="#">Unser Team</a></li>
+                        <li><a href="#">Karriere</a></li>
+                    </ul>
+                </li>
+                    <li><a href="#">Bildergalerie</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="content">
+            <h1 class="contentheading">Herzlich willkommen!</h1>
+                <p>Oat cake apple pie I love chupa chups. I love applicake wafer fruitcake applicake
+                    applicake pie soufflé. Bonbon chocolate tootsie roll cake muffin. Danish I love
+                    jelly gummi bears chocolate pudding chocolate cake muffin. Tootsie roll bonbon
+                    halvah tart cupcake oat cake pie gingerbread jelly-o. Bonbon applicake liquorice.
+                </p>
+                <p>
+                    Jujubes soufflé sesame snaps cheesecake chupa chups toffee bonbon toffee. Oat cake
+                    chocolate bonbon I love bonbon soufflé chocolate. I love caramels marshmallow dragée
+                    dessert fruitcake sesame snaps gingerbread wafer. I love jelly-o gummies sweet apple
+                    pie. I love sugar plum jelly beans topping pie cookie cupcake toffee.
+                </p>
+        </div>
+
+        <aside id="aside">
+            <ul>
+                <li><a href="#">Kontakt</a></li>
+                <li><a href="#">Anfahrt</a></li>
+                <li><a href="#">AGB</a></li>
+            </ul>
+        </aside>
+
+        <footer class="clear">
+            <ul id="footer-menu">
+                <li><a href="#">Impressum</a></li>
+                <li><a href="#">Kontakt</a></li>
+                <li><a href="#">Anfahrt</a></li>
+                <p>&copy;2014 Waldemar Schynol Industrieservice</p>
+            </ul>
+        </footer>
+    </body>
+</html>
+
+
+
+
+
+<!-- für Bildergalerien:
+<div id="content"></div>
+
+JS:
+window.onload = function() {
+    bilderladen();
+}
+
+function bilderladen() {
+    var div = document.getElementById("content");
+    var img;
+    var pfad = "/bilder/";         // oder evtl: "./bilder/"
+
+    for (var i = 0; i <= 8; i++) {
+    var img = document.createElement("img");
+    img.src = pfad + "00" + i + ".jpg";
+    img.class = "bilder";           // die Klasse muss natürlich noch ins CSS!
+    div.appendChild(img);
+
+    }
+}
+
+CSS:
+
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.bilder {
+    width: 250px;
+    margin 10px;
+    float: left;
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+
+
+@media screen and (max-width: 499px) {
+    #content {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    width: 50%;
+    }
+}
+-->
